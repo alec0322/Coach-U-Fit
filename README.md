@@ -52,10 +52,12 @@ The complete implementation of both the web application and the regression model
 'coachufit.py' Python file. The following steps detail how to properly run the file:
 
 * Make sure that all files in coachufit.zip are extracted to the same directory
-* The '.vscode' directory contains a variety of .json run paths used to properly set up the Streamlit web app
+* All the '.json' files are to be placed in a directory/folder titled '.vscode'
+    * The '.vscode' directory will help VS Code set up the run paths appropiately for the Streamlit web app
     * Note that the code was written using VS Code, using it for your own implementation is highly recommended
 * Open the directory through VS Code, open 'coachufit.py', and go to VS Code's "Run and Debug" tab
 * In the top left, press the green start icon titled: "Python: Module"
     * Doing this will point to the previously mentioned run paths in the '.vscode' directory
 * Finally, the streamlit app will run on localhost on your preferred web browser
+    * If the app does NOT run, chances are you didn't change the paths leading to the dataset '.csv' files
 
